@@ -1,10 +1,10 @@
-# Claude Code 2.1.88 — Archeology Skill
+# Keep It Sealed — Archeology Skill
 
 *For those who know, 44+44. For those who don't, this is an archeology project.*
 
 ## What is this?
 
-A skill (SKILL.md) that turns any AI agent into an archeologist. Give it a task and it independently hunts down preserved copies of a specific software release, verifies them, downloads them, and writes up the findings — no human intervention needed.
+A skill (SKILL.md) that turns any AI agent into an archeologist. Give it a task and it independently hunts down preserved copies of a particular software release, verifies them, downloads them, and writes up the findings — no human intervention needed.
 
 ## What it does
 
