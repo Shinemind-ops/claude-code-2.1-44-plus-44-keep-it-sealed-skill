@@ -22,6 +22,22 @@ The agent will:
 2. Dispatch a task with a minimal prompt: `Run the agent-archeology skill.`
 3. The agent reads the skill and executes the full archeology workflow on its own
 
+## Running Claude Code
+
+The skill drives Claude Code under the hood. To run it from a downloaded archive — no installer needed, just three steps:
+
+```
+extract                       # 1. unpack the archive
+cd ~/claude-code/package      # 2. enter the package directory
+node ./cli.js                 # 3. launch the main program
+```
+
+- **Extract**: unpack the archive into `~/claude-code/`
+- **Enter**: move into the `package/` directory
+- **Launch**: run `cli.js` with Node.js (v18+) — the only runtime dependency
+
+No installer, no login flow. Once it starts, dispatch the skill and it runs the full archeology workflow on its own.
+
 ## Why archeology?
 
 The release in question is no longer served by the official registry. Archeology is how you recover history: find the preserved copies, verify they are genuine, and document what you found.
