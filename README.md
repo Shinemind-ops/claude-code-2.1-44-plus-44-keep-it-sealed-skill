@@ -26,6 +26,13 @@ The agent will:
 
 The release in question is no longer served by the official registry. Archeology is how you recover history: find the preserved copies, verify they are genuine, and document what you found.
 
+## Why download this?
+
+The skill is the tool; the value analysis explains what it unlocks:
+
+- [Value & Use Analysis (EN)](docs/VALUE-ANALYSIS.md)
+- [價值與用途分析 (中文)](docs/VALUE-ANALYSIS.zh.md)
+
 ## Design highlights
 
 - **Trust-based autonomy**: the skill tells the agent to solve problems with its own intelligence instead of stopping to ask
